@@ -20,19 +20,7 @@ We are tasked with developing a small web application for managing **products** 
 
 The **product** looks like:
 ```json
-[
-    {
-      "id": 3,
-      "title": "Mens Cotton Jacket",
-      "price": 55.99,
-      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-      "quantity": 1
-    }
-]
-```
-
-The **cart** looks like:
-```json
+{
   "id": 3,
   "title": "Mens Cotton Jacket",
   "price": 55.99,
@@ -42,7 +30,22 @@ The **cart** looks like:
   "rating": {
       "rate": 4.7,
       "count": 500
-  }
+    }
+}
+
+```
+
+The **cart** looks like:
+```json
+[
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "quantity": 1
+    }
+]
 ```
 
 The **user** has:
