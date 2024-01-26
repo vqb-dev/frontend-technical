@@ -99,15 +99,16 @@ the **nice to have** increase your score and the **specials** will surely demons
 
 #### Required features
 
-1. Create a web page to display the list of products showing `title`, `image`, `category` and `price` of each product.
-2. Create an `Add to cart` button with each product item.
-3. Create a search bar that allows for searching the products and a search page for the results items, and display an empty response message if no products were found
+1. Create a web page to display the list of product cards showing `title`, `image`, `category` and `price` of each product.
+2. Create an `Add to cart` button attached to each product item.
+3. Create a search bar that allows for searching the products and a search page for the results items, and display an empty response message if no products were found.
 4. Validate the parameters just added in the URL to match the format accepted by the server for the page (and page size) and redirect to a "Bad request" page in case the parameters are invalid.
-5. Create a cart button in the header with a bubble indicator to show how many products are in the cart
-7. Create a cart page/popover to display the current products in the cart and give the ability to change product quantity and delete them from the cart
-8. If the user tries to add to their cart a quantity of product that exceeds the product `stock`, display an error.
-9. Make sure the page is responsive and looks good on mobile and tablet.
-10. Create a separate page that displays the product information when a product is clicked
+5. Create a separate page that displays the product information when a product is clicked.
+6. A URL should be changed for each product page e.g. `/products/<product_id>`.
+7. Create a cart button in the header toolbar with a bubble indicator to show how many products are in the cart.
+8. Create a cart page/popover to display the current products in the cart and give the ability to change product quantity and delete them from the cart.
+9. If the user tries to add to their cart a quantity of product that exceeds the product `stock`, display an error.
+10. Make sure the page is responsive and looks good on mobile and tablet. 
 
 #### Nice to have features
 
