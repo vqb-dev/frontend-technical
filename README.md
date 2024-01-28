@@ -75,11 +75,11 @@ Add it to the scripts section of your package.json
 }
 ```
 
-If you have added the server in the scripts section, you can run it with `npm run server`. Alternatively, you can run it with `npx vqb-products-server`
+If you have added the server in the scripts section, you can run it with `npm run server`. Alternatively, you can run it with `npx products-server`
 
 Check the webpage that opens automatically in your browser for more instructions on how to configure the server (by default http://localhost:3000) and its API documentation.
 
-By default, even though some endpoints require authentication, they can be accessed without it. You can start development without using the authentication. We have some requirements below, where authentication is needed, so to enable authentication on the server, it can be run by adding `--auth` parameter like `vqb-products-server --auth`. Also, to simulate async processing, the server can be run with `--async` parameter like `vqb-products-server --async`.
+By default, even though some endpoints require authentication, they can be accessed without it. You can start development without using the authentication. We have some requirements below, where authentication is needed, so to enable authentication on the server, it can be run by adding `--auth` parameter like `products-server --auth`. Also, to simulate async processing, the server can be run with `--async` parameter like `products-server --async`.
 
 Please check carefully the API documentation and request parameters. The documentation is self-explanatory, but could you make sure you check the details? For example:
 ```bash
