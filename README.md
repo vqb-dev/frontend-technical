@@ -70,7 +70,7 @@ Add it to the scripts section of your package.json
 ```json
 {
   "scripts": {
-    "server": "vqb-products-server"
+    "server": "products-server"
   }
 }
 ```
